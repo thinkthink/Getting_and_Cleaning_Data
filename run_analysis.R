@@ -25,7 +25,7 @@
    y_train<-read.table("./UCI HAR Dataset/train/Y_train.txt")
    y_data <- rbind(y_test,y_train)
    names(y_data) <- "Activity"
-    merage <- merge(extract_x_data,activity_labels)
+   merge <- merge(extract_x_data,activity_labels)
 
 # 5.From the data set in step 4, creates a second, independent tidy data set with the average of each 
 
